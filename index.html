@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Warung JEje</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(180deg, #2ecc71, #111);
+      color: white;
+      text-align: center;
+    }
+
+    .navbar {
+      position: sticky;
+      top: 0;
+      background: rgba(0,0,0,0.4);
+      backdrop-filter: blur(10px);
+      padding: 10px;
+      font-weight: bold;
+    }
+
+    header {
+      padding: 30px 15px;
+    }
+
+    .logo {
+      width: 140px;
+      object-fit: contain;
+      margin-bottom: 10px;
+    }
+
+    header h1 {
+      margin-top: 10px;
+      font-size: 30px;
+    }
+
+    header p {
+      opacity: 0.9;
+      font-size: 14px;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .card {
+      background: rgba(0,0,0,0.6);
+      margin-bottom: 15px;
+      padding: 20px;
+      border-radius: 18px;
+      backdrop-filter: blur(10px);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .btn {
+      display: block;
+      margin: 10px auto;
+      padding: 14px;
+      width: 80%;
+      max-width: 250px;
+      border-radius: 12px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn-wa { background: #25D366; }
+    .btn-wa:hover { background: #1ebe5d; }
+
+    .btn-order { background: #f39c12; }
+    .btn-order:hover { background: #d68910; }
+
+    .btn-saran { background: #3498db; }
+    .btn-saran:hover { background: #2c80b4; }
+
+    .highlight {
+      color: #2ecc71;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="navbar">
+  WARUNG JEje 🛒
+</div>
+
+<header>
+  <img src="logo.png" class="logo" alt="Logo Warung JEje">
+  <h1>Warung JEje</h1>
+  <p>Solusi kebutuhan harian kamu dengan harga bersahabat 💚</p>
+</header>
+
+<div class="container">
+
+  <div class="card">
+    <h2>📍 Lokasi</h2>
+    <p>
+      Jl. H. Merin No.2, RW.4, Meruya Utara,<br>
+      Jakarta Barat
+    </p>
+    <p class="highlight">Mudah dijangkau & dekat dengan lingkungan sekitar</p>
+
+    <a class="btn btn-wa"
+       href="https://www.google.com/maps/search/?api=1&query=Jl.+H.+Merin+No.2+Meruya+Utara+Jakarta+Barat"
+       target="_blank">
+       Buka Maps
+    </a>
+  </div>
+
+  <div class="card">
+    <h2>⏰ Jam Buka</h2>
+    <p>Setiap hari (Senin - Minggu)</p>
+    <p><b>05.00 - 22.00 WIB</b></p>
+    <p>Kami siap melayani kamu dari pagi sampai malam 🌙</p>
+  </div>
+
+  <div class="card">
+    <h2>🎉 Promo</h2>
+    <p>Jangan lewatkan promo menarik setiap hari!</p>
+    <p class="highlight">Harga hemat • Pelayanan cepat • Barang terpercaya</p>
+  </div>
+
+  <div class="card">
+    <h2>Kenapa Pilih Kami?</h2>
+    <p>✔ Pelayanan ramah & cepat</p>
+    <p>✔ Harga terjangkau</p>
+    <p>✔ Lokasi strategis</p>
+    <p>✔ Bisa pesan langsung via WhatsApp</p>
+  </div>
+
+  <div class="card">
+    <h2>📲 Hubungi Kami</h2>
+    <p>Klik tombol di bawah untuk langsung terhubung dengan kami</p>
+
+    <a class="btn btn-wa"
+       href="https://wa.me/6285283443183?text=Hallo%20Warung%20JEje,%20saya%20ingin%20tanya">
+       Tanya Produk
+    </a>
+
+    <a class="btn btn-order"
+       href="https://wa.me/6285283443183?text=Hallo%20Warung%20JEje,%20saya%20ingin%20order">
+       Order Sekarang
+    </a>
+
+    <a class="btn btn-saran"
+       href="https://wa.me/6285283443183?text=Hallo%20Warung%20JEje,%20saya%20ingin%20memberikan%20kritik%20dan%20saran">
+       Kritik & Saran
+    </a>
+  </div>
+
+  <div class="card">
+    <h2>Terima Kasih 🙏</h2>
+    <p>Terima kasih sudah mempercayai <span class="highlight">Warung JEje</span></p>
+    <p>Kepuasan kamu adalah prioritas kami 💯</p>
+  </div>
+
+</div>
+
+</body>
+</html>
